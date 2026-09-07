@@ -52,6 +52,25 @@ creerCarte(
         </ol>
         <img src="../../img/fr/admin/access_rapide.png" alt="img_tableau_bord" style="width: 70%;
             border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+
+        <li><h4>Plateforme:</h4></li>
+        
+        <ol>
+            <li>Utilisateur:</li>
+            <p>Montre le nombre d'utilisateur et redirection vers la page utilisateur</p>
+
+            <li>Fournisseur:</li>
+            <p>Montre le nombre de fournisseur </p>
+
+            <li>Fabricant:</li>
+            <p>Redirection vers la page de la liste des fournisseurs</p>
+
+             <li>Catégorie:</li>
+            <p>Redirection vers la page qui liste la catégorie des produits disponibles</p>
+
+            
+        </ol>
     </ol>
     `
 );
