@@ -17,12 +17,29 @@ li a{
 
 p, a {
   font-family: "Valley Sans", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
 }
 
 strong{
     margin-top: 10px;
+}
+
+h5{
+    font-size: 20px;
+}
+/*-----------------btn retour-----------------------------------*/
+#btn_return{
+    margin: 10px;
+    justify-content: start;
+    align-self: flex-start;
+}
+
+button a {
+  font-family: "Valley Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+  color : #000000;
 }
 /*-------------------title decoration---------------------------*/
 #TittleDecoration {
@@ -38,4 +55,53 @@ strong{
 #TittleDecoration p{
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+/*-------------------------teste hidden----------------------------*/
+/* Le conteneur avec overflow: hidden par défaut */
+.card {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20px; /* Hauteur limitée pour forcer le masquage */
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* ICI : Le overflow initial demandé */
+    overflow: hidden;
+    
+    /* Transition fluide (optionnel) */
+    transition: height 0.3s ease;
+}
+
+/* Style de l'en-tête cliquable */
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none; /* Empêche de sélectionner le texte par erreur */
+    margin-top: -5px;
+}
+
+.card-header h3 {
+    
+    margin: 0;
+}
+
+/* Style du symbole + / - */
+.symbol {
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000;
+    margin-left: 50%;
+}
+
+/* Classe ajoutée/retirée par le JavaScript */
+.card.expanded {
+    overflow: visible; /* Passage en normal/visible */
+    height: auto;      /* Permet d'adapter la hauteur au contenu complet */
 }
