@@ -5,13 +5,19 @@ body{
     justify-content: center;
 }
 
+img{
+    margin-bottom: 25px;
+}
 
-ul{
+ul {
     list-style: none;
+  list-style-type: lower-alpha; /* ou lower-latin */
+  color : #000000;
 }
 li a{
     text-decoration: none;
-    color : rgb(0, 26, 255);
+    color : #000000;
+    text-decoration: underline;
 }
 
 
