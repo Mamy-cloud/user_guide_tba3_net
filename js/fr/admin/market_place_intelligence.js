@@ -120,8 +120,336 @@ creerCarte(
                 <p>Suggestion des tâches à accomplir pour le fournisseur</p>
                 <img src="../../img/fr/admin/market_place/fournisseur_assistant.png" alt="img_marketplace" style="width: 70%;
                 border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Historique des décisions</li>
+                <img src="../../img/fr/admin/market_place/historique_decision.png" alt="img_marketplace" style="width: 70%;
+                border: 2px solid black; border-radius: 8px; padding: 5px;">
             </ul>
+        <h5>Utilisation de l'assistant IA:</h5>
+        <p> Cliquer sur le bouton "analyser et proposer" > cocher un ou plusieurs choix dans "lexique ou catalogue ou fournisseur" > cliquer sur "accepter le lot" > la suggestion sera accepté ou refusé </p>
+        <p> Cliquer sur le bouton "mesurer l'efficatité" > montre les résultats</p>
             
+
+        <hr>
+        <li><h4>Opérations:</h4></li>
+                <h5>Contenus:</h5>
+
+                    <ul>
+                        <li>En tête</li>
+                        <img src="../../img/fr/admin/market_place/ope_sync_ia.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">    
+
+                        <li>Statuts des tickets</li>
+                        <img src="../../img/fr/admin/market_place/statut_operation.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                        <li>Listes des tickets</li>
+                        <img src="../../img/fr/admin/market_place/op_list_ticket.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                        <li>Worflows</li>
+                        <img src="../../img/fr/admin/market_place/op_workflows.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+                    
+                    </ul>
+                <h5>Utilisation:</h5>
+                <ul>
+                        <li>Cliquer sur le bouton "synchroniser depuis l'intelligence" dans "En-tête"</li>
+                        <li>Aller dans "Listes des tickets" > Choisir le statut de traitement > Cliquer sur un des tickets</li>
+                        <li>Choisir un des actions dans "Workflow":
+                            <ol>
+                                <li>prendre en charge: changement statut en 'in progress'</li>
+                                <li>créer un synonyme: donner un autre nom aux ticket</li>
+                                <li>créer un produit: redirection vers la page 'produit'</li>
+                                <li>créer un catégorie: redirection vers la page 'catégorie'</li>
+                                <li>créer une relation ontologique: redirection vers la page 'ontologie métier'</li>
+                                <li>Assistant image, ouvre un autre page:
+                                    <ul>
+                                        <li>nom du produit</li>
+                                        <li>bouton "ouvrir catalogue": redirection vers la page "produit"</li>
+                                        <li>bouton "uploader": importation d'image pour le produit</li>
+                                        <li>bouton "précédent": ouvre le produit précédent</li>
+                                        <li>bouton "suivant": ouvre le produit suivant</li>
+                                        <li>bouton "retour operation"</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </li>
+                        
+                    
+                </ul>
+
+         <hr>
+        <li><h4>Experiments:</h4></li>
+        <p>Expérimente la base vectorielle pour l'ia</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>Baseline (30 j)</li>
+                <li>Nouvelle expérience</li>
+                <li>Expériences</li>
+                <img src="../../img/fr/admin/market_place/experiments2.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+                <img src="../../img/fr/admin/market_place/experiments1.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Aller sur la partie "nouvelle expérience"</li>
+                <li>Remplir les 3 "inputs"</li>
+                <li>Cliquer sur "créer draft"</li>
+                
+            </ul>
+
+        <hr>
+        <li><h4>Search:</h4></li>
+        <p>Statistique concernant les activités de recherche</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_search5.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_search4.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Courbe de recherche</li>
+                <img src="../../img/fr/admin/market_place/market_search3.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Liste des recherches</li>
+                <img src="../../img/fr/admin/market_place/market_search2.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_search1.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j pour trier la recherche qui est dans l'en-tête</li>
+                <li>Aller dans "Liste des recherches" > Recherches sans résultat > cliquer sur une recherche > redirection vers la page "lexique métier"</li>
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> ouvrir le lexique metier: redirection vers la page "lexique métier"</li>
+                                <li> créer une catégorie: redirection vers la page "catégorie"</li>
+                                <li> Voir opportunité catalogue: redirection vers la page "intelligence catalogue"</li>
+                            </ul>
+                        </li>
+
+                        <li>Priorités:
+                            <ul>
+
+                                <li> Search Index Health: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" - redirection vers la page "produit"; </li>
+                                <li> Recherches sans résultat: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" - redirection vers la page "catégorie"; le bouton "créer synonyme" - redirection vers la page "léxique métier" </li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+                </li>
+                
+            </ul>
+
+
+        <hr>
+        <li><h4>Product:</h4></li>
+        <p>Statistique concernant les activités sur les produits</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_product5.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_product4.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_product3.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Liste des produits</li>
+                <img src="../../img/fr/admin/market_place/market_product2.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_product1.png" alt="img_marketplace" style="width: 70%;
+                        border: 2px solid black; border-radius: 8px; padding: 5px;">
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j pour trier la recherche qui est dans l'en-tête</li>
+                <li>Aller dans "Liste des produits" > Plus consultés (viewCount) > cliquer sur un produit > redirection vers la page "produit"</li>
+                <li>Aller dans "Liste des produits" > Produits sans image (échantillon) > cliquer sur un produit > redirection vers la page "produit"</li>
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> corriger les photos: redirection vers la page "produit"</li>
+                                <li> voir le catalogue: redirection vers la page "produit"</li>
+                                <li> knowledge center: redirection vers la page "knowledge center"</li>
+                                <li> bibliothèque document: redirection vers la page "bibliothèque"</li>
+                            </ul>
+                        </li>
+
+                        <li>Priorités:
+                            <ul>
+
+                                <li> produits sans photo: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" - redirection vers la page "produit"; </li>
+                                <li> Knowledge Score moyen Agroalimentaire: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" - redirection vers la page "knowledge center"; </li>
+                                <li> Coverage documentaire: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" - redirection vers la page "bibliothèque"; </li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+                </li>
+                
+            </ul>
+
+            <hr>
+        <li><h4>Supplier:</h4></li>
+        <p>Statistique concernant les activités du fournisseur</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_suppli5.png" alt="img_marketplace">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_suppli4.png" alt="img_marketplace" >
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_suppli3.png" alt="img_marketplace">
+
+                <li>Liste des fournisseurs et demandes RFQ</li>
+                <img src="../../img/fr/admin/market_place/market_suppli2.png" alt="img_marketplace" >
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_suppli1.png" alt="img_marketplace" >
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j pour trier la recherche qui est dans l'en-tête</li>
+                <li>Aller dans "Liste des fournisseurs et demandes RFQ" > RFQ gagnés > cliquer sur un RFQ > redirection vers la page "demande RFQ"</li>
+                <li>Aller dans "Liste des fournisseurs et demandes RFQ" > Profils incomplets > cliquer sur un fournisseur > redirection vers la page "fournisseurs & sociétés"</li>
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> compléter les profils: redirection vers la page "fournisseurs & sociétés"</li>
+                                <li> gérer les certification: redirection vers la page "Certifications sociétés"</li>
+                            </ul>
+                        </li>
+
+                        <li>Priorités:
+                            <ul>
+
+                                <li> fournisseurs sans certificat: le bouton "voir" - redirection vers "l'en-tête"; redirection vers la page "fournisseurs & sociétés" </li>
+                                <li> fournisseurs sans logo: le bouton "voir" - redirection vers "l'en-tête"; redirection vers la page "fournisseurs & sociétés"  </li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+                </li>
+                
+            </ul>
+
+        <hr>
+        <li><h4>RFQ:</h4></li>
+        <p>Statistique concernant les demandes de devis (RFQ)</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_rfq5.png" alt="img_marketplace">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_rfq4.png" alt="img_marketplace" >
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_rfq3.png" alt="img_marketplace">
+
+                <li>Historique des demandes RFQ</li>
+                <img src="../../img/fr/admin/market_place/market_rfq2.png" alt="img_marketplace" >
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_rfq1.png" alt="img_marketplace" >
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j pour trier la recherche qui est dans l'en-tête</li>
+                <li>Aller dans "Historique des demandes RFQ" > Répartition pipeline > cliquer sur un RFQ > redirection vers la page "demande RFQ"</li>
+                <li>Aller dans "Historique des demandes RFQ" > Expirés / annulés > cliquer sur un RFQ > redirection vers la page "demande RFQ"</li>
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> voir les RFQ: redirection vers la page "demande RFQ"</li>
+                                <li> traiter les ouverts: redirection vers la page "demande RFQ"</li>
+                            </ul>
+                        </li>
+
+                        <li>Priorités:
+                            <ul>
+
+                                <li> RFQ ouverts: le bouton "voir" - redirection vers "l'en-tête"; redirection vers la page "demande de devis RFQ" </li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+                </li>
+                
+            </ul>
+
+
+            <hr>
+        <li><h4>Reco:</h4></li>
+        <p>Statistique concernant les recommandations</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_reco5.png" alt="img_marketplace">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_reco4.png" alt="img_marketplace" >
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_reco3.png" alt="img_marketplace">
+
+                <li>Historique des recommandations</li>
+                <img src="../../img/fr/admin/market_place/market_reco2.png" alt="img_marketplace" >
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_reco1.png" alt="img_marketplace" >
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j pour trier la recherche qui est dans l'en-tête</li>
+                <li>Aller dans "Historique des recommandations" > Paires les plus fortes (BI Graph) > cliquer sur une recommandation > redirection vers la page "produit"</li>
+                
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> voir fiche produit: redirection vers la page "produit"</li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+                </li>
+                
+            </ul>
     </ol>
     `
 );
