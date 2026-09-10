@@ -352,8 +352,8 @@ creerCarte(
                         <li>Priorités:
                             <ul>
 
-                                <li> fournisseurs sans certificat: le bouton "voir" - redirection vers "l'en-tête"; redirection vers la page "fournisseurs & sociétés" </li>
-                                <li> fournisseurs sans logo: le bouton "voir" - redirection vers "l'en-tête"; redirection vers la page "fournisseurs & sociétés"  </li>
+                                <li> fournisseurs sans certificat: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers la page "fournisseurs & sociétés" </li>
+                                <li> fournisseurs sans logo: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers la page "fournisseurs & sociétés"  </li>
                             </ul>
                         </li>
                         
@@ -401,7 +401,7 @@ creerCarte(
                         <li>Priorités:
                             <ul>
 
-                                <li> RFQ ouverts: le bouton "voir" - redirection vers "l'en-tête"; redirection vers la page "demande de devis RFQ" </li>
+                                <li> RFQ ouverts: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers la page "demande de devis RFQ" </li>
                             </ul>
                         </li>
                         
@@ -447,6 +447,212 @@ creerCarte(
                         </li>
                         
                     </ol>
+                </li>
+                
+            </ul>
+
+        <hr>
+        <li><h4>IA:</h4></li>
+        <p>Statistique d'utilisation IA</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_IA5.png" alt="img_marketplace">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_IA4.png" alt="img_marketplace" >
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_IA3.png" alt="img_marketplace">
+
+                <li>Historique des recherches faits avec l'IA</li>
+                <img src="../../img/fr/admin/market_place/market_IA2.png" alt="img_marketplace" >
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_IA1.png" alt="img_marketplace" >
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j pour trier la recherche qui est dans l'en-tête</li>
+                <li>Aller dans "Historique des recherches faits avec l'IA" > Risques > cliquer sur une recherche IA > redirection vers la page "lexique métier"</li>
+                
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> pipeline document: redirection vers la page "document"</li>
+                                <li> bibliothèque: redirection vers la page "bibliothèque"</li>
+                                <li> simulateur: redirection vers la page "simulateur"</li>
+                                <li> bibliothèque: redirection vers la page "bibliothèque"</li>
+                                <li> observabilité IA: redirection vers la page "observabilité"</li>
+                            </ul>
+                        </li>
+                        
+                        <li>Priorités:
+                            <ul>
+
+                                <li> documents en attente de validation: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers la page "documents" </li>
+                                <li> produits actifs sans documentation Published: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers la page "bibliothèque" </li>
+                                <li> Coverage documentaire: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers la page "bibliothèque" </li>
+                                <li> taux de fallback: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers la page "observabilité" </li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    
+                </li>
+                
+            </ul>
+
+            <hr>
+        <li><h4>Lexique:</h4></li>
+        <p>Tableau de bord pour le contrôle des mots</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_lexique5.png" alt="img_marketplace">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_lexique4.png" alt="img_marketplace" >
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_lexique3.png" alt="img_marketplace">
+
+                <li>Historique des recherches</li>
+                <img src="../../img/fr/admin/market_place/market_lexique2.png" alt="img_marketplace" >
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_lexique1.png" alt="img_marketplace" >
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j pour trier la recherche qui est dans l'en-tête</li>
+                <li>Aller dans "Historique des recherches" > À ajouter au lexique > cliquer sur une recherche > redirection vers la page "lexique métier"</li>
+                <li>Aller dans "Toutes recherches sans résultat" > À ajouter au lexique > cliquer sur une recherche > redirection vers la page "lexique métier"</li>
+                
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> créer un synonyme: redirection vers la page "lexique métier"</li>
+                                <li> corriger une entrée: redirection vers la page "lexique métier"</li>
+                            </ul>
+                        </li>
+                        
+                        <li>Priorités:
+                            <ul>
+
+                                <li> termes absents du lexique: le bouton "voir" - redirection vers "l'en-tête"; le bouton "corriger" redirection vers l'en-tête; le bouton "créer un synonyme" redirection vers "lexique métier" </li>
+                               
+                            </ul>
+                        </li>
+                    </ol>
+
+                    
+                </li>
+                
+            </ul>
+
+            <hr>
+        <li><h4>Ontologie:</h4></li>
+        <p>Tableau de bord des relations métiers</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_onto5.png" alt="img_marketplace">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_onto4.png" alt="img_marketplace" >
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_onto3.png" alt="img_marketplace">
+
+                <li>Historique des relations utilisées</li>
+                <img src="../../img/fr/admin/market_place/market_onto2.png" alt="img_marketplace" >
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_onto1.png" alt="img_marketplace" >
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j qui est dans l'en-tête pour trier le tableau de bord </li>
+                <li>Aller dans "Historique des recherches" > À ajouter au lexique > cliquer sur une recherche > redirection vers la page "lexique métier"</li>
+                <li>Aller dans "Toutes recherches sans résultat" > À ajouter au lexique > cliquer sur une recherche > redirection vers la page "lexique métier"</li>
+                
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> ouvrir l'éditeur ontologie: redirection vers la page "Ontologie métier"</li>
+                                <li> data quality: redirection vers la page "marketplace > data quality"</li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+
+                    
+                </li>
+                
+            </ul>
+
+            <hr>
+        <li><h4>Data quality:</h4></li>
+        <p>Tableau de bord des traitements de données</p>
+        <h5>Contenus:</h5>
+            <ul>
+                <li>En-tête</li>
+                <img src="../../img/fr/admin/market_place/market_data5.png" alt="img_marketplace">
+
+                <li>Statistiques</li>
+                <img src="../../img/fr/admin/market_place/market_data4.png" alt="img_marketplace" >
+
+                <li>Courbe</li>
+                <img src="../../img/fr/admin/market_place/market_data3.png" alt="img_marketplace">
+
+                <li>Liste des données</li>
+                <img src="../../img/fr/admin/market_place/market_data2.png" alt="img_marketplace" >
+
+                <li>Raccourcis</li>
+                <img src="../../img/fr/admin/market_place/market_data1.png" alt="img_marketplace" >
+            </ul>
+
+        <h5>Utilisation:</h5>
+            <ul>
+                <li>Cliquer sur 7j ou 30j qui est dans l'en-tête pour trier le tableau de bord </li>
+                <li>Aller dans "Liste des données" > Domaines les plus sains > cliquer sur une donnée > redirection vers l'en-tête</li>
+                
+                
+                <li>Raccourcis:
+                    <ol>
+                        <li>liste des boutons:
+                            <ul>
+
+                                <li> compléter les produits: redirection vers la page "produit"</li>
+                                <li> compléter les fournisseurs: redirection vers la page "Fournisseurs & Sociétés"</li>
+                                <li> compléter les ontologies: redirection vers la page "ontologie métier"</li>
+                            </ul>
+                        </li>
+                        
+                    </ol>
+
+                    
+                </li>
+
+                <li>Priorités:
+                    <ul>
+
+                        <li> Search Index Health: le bouton "voir" - redirection vers "marketplace > search"; le bouton "corriger" redirection vers la page "produit";</li>
+                        <li> produits sans photo: le bouton "voir" - redirection vers "produit"; le bouton "corriger" redirection vers la page "produit";</li>
+                        <li> fournisseurs sans certificat: le bouton "voir" - redirection vers "marketplace > supplier"; le bouton "corriger" redirection vers la page "fournisseur & société";</li>
+                        <li> taux de fallback IA: le bouton "voir" - redirection sur la même page; le bouton "corriger" redirection vers la page "observabilité";</li>                       
+                        <li> recherches sans résultat: le bouton "voir" - redirection vers la page "marketplace > search"; le bouton "corriger" redirection vers la page "lexique métier"; le bouton "corriger" redirection vers la page "lexique métier"; le bouton "créer synonyme" redirection vers la page "lexique métier";</li>
+                    </ul>
                 </li>
                 
             </ul>
