@@ -1,6 +1,6 @@
 // js/fr/admin/navhor.js
 creerCarte(
-    "Fournisseurs & Sociétés",
+    "Médias fournisseurs",
     `
     <ol>
         
@@ -9,11 +9,9 @@ creerCarte(
             <ul>
 
                 <li>En-tête</li>
-                <img src="../../img/fr/admin/fournisseur/fournS3.png" alt="img_tableau_bord">
                 <li>Liste fournisseur</li>
-                <img src="../../img/fr/admin/fournisseur/fournS2.png" alt="img_tableau_bord">
                  <li>Gestion fournisseur</li>
-                <img src="../../img/fr/admin/fournisseur/fournS1.png" alt="img_tableau_bord">
+                <img src="../../img/fr/admin/fournisseur/fournM.png" alt="img_tableau_bord">
             </ul>
 
         <li><h4>Utilisation</h4></li>
