@@ -24,6 +24,8 @@ creerCarte(
         <li>Consentement cookies</li>
         <li>Utilisateurs</li>
         <li>Fournisseurs & Sociétés</li>
+        <li>Centre export</li>
+        <li>Logistique</li>
         <li>Médias fournisseurs</li>
         <li>Certifications sociétés</li>
         <li>Vérifications KYC</li>
