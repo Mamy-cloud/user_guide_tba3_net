@@ -71,7 +71,7 @@ button a {
     margin-bottom: 2px;
 }
 
-/*-------------------------teste hidden----------------------------*/
+/*-------------------------conteneur hidden----------------------------*/
 /* Le conteneur avec overflow: hidden par défaut */
 .card {
     justify-content: center;
@@ -103,6 +103,7 @@ button a {
 
 .card-header h3 {
     
+    margin-right: 3vw;
     margin: 0;
 }
 
@@ -111,8 +112,11 @@ button a {
     font-size: 30px;
     font-weight: 800;
     color: #000000;
-    margin-left: 50%;
+    
+    
+    margin-left: 3vw;
 }
+
 
 /* Classe ajoutée/retirée par le JavaScript */
 .card.expanded {

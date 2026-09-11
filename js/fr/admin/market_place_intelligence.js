@@ -607,19 +607,19 @@ creerCarte(
         <h5>Contenus:</h5>
             <ul>
                 <li>En-tête</li>
-                <img src="../../img/fr/admin/market_place/market_data5.png" alt="img_marketplace">
+                <img src="../../img/fr/admin/market_place/market_data_qual5.png" alt="img_marketplace">
 
                 <li>Statistiques</li>
-                <img src="../../img/fr/admin/market_place/market_data4.png" alt="img_marketplace" >
+                <img src="../../img/fr/admin/market_place/market_data_qual4.png" alt="img_marketplace" >
 
                 <li>Courbe</li>
-                <img src="../../img/fr/admin/market_place/market_data3.png" alt="img_marketplace">
+                <img src="../../img/fr/admin/market_place/market_data_qual3.png" alt="img_marketplace">
 
                 <li>Liste des données</li>
-                <img src="../../img/fr/admin/market_place/market_data2.png" alt="img_marketplace" >
+                <img src="../../img/fr/admin/market_place/market_data_qual2.png" alt="img_marketplace" >
 
                 <li>Raccourcis</li>
-                <img src="../../img/fr/admin/market_place/market_data1.png" alt="img_marketplace" >
+                <img src="../../img/fr/admin/market_place/market_data_qual1.png" alt="img_marketplace" >
             </ul>
 
         <h5>Utilisation:</h5>
