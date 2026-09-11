@@ -9,9 +9,9 @@ creerCarte(
             <ul>
 
                 <li>En-tête</li>
-                <img src="../../img/fr/admin/knowledge/knowledge.png" alt="img_tableau_bord">
+                <img src="../../img/fr/admin/user/user2.png" alt="img_tableau_bord">
                 <li>Liste utilisateur avec leur gestion</li>
-                <img src="../../img/fr/admin/knowledge/knowledge.png" alt="img_tableau_bord">
+                <img src="../../img/fr/admin/user/user1.png" alt="img_tableau_bord">
             </ul>
 
         <li><h4>Utilisation</h4></li>
