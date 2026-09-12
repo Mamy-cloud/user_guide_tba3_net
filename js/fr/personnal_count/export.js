@@ -11,9 +11,11 @@ creerCarte(
                     <ul>
                         <li>Voir la page publique: redirection vers la page demande de devis</li>
                         <li>Barre de recherche pour le service export</li>
-                        <img src="../../img/fr/admin/export/export11.png" alt="img_tableau_bord">
+                        
                     </ul>
                 </li>
+                <img src="../../img/fr/admin/export/export11.png" alt="img_tableau_bord">
+
                 <li>Vue ensemble
                     <ul>
                         <li>Tableau de bord général du centre export et logistique</li>
@@ -23,8 +25,9 @@ creerCarte(
                     </ul>
                 </li>
                 <li>Conseil export: liste les demandes de devis rfq
-                    <img src="../../img/fr/admin/export/export8.png" alt="img_tableau_bord">
+                    
                 </li>
+                <img src="../../img/fr/admin/export/export8.png" alt="img_tableau_bord">
                 <li>Produit export: liste les produits à exporter</li>
                     <img src="../../img/fr/admin/export/export7.png" alt="img_tableau_bord">
                 <li>Fournisseur export: liste des exportateurs</li>

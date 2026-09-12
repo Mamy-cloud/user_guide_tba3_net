@@ -11,9 +11,11 @@ creerCarte(
                     <ul>
                         <li>View the public page: redirect to the request for quotation page</li>
                         <li>Search bar for the export service</li>
-                        <img src="../../img/fr/admin/export/export11.png" alt="img_tableau_bord">
+                        
                     </ul>
                 </li>
+                <img src="../../img/fr/admin/export/export11.png" alt="img_tableau_bord">
+
                 <li>Overview
                     <ul>
                         <li>General dashboard of the export and logistics center</li>
@@ -23,8 +25,9 @@ creerCarte(
                     </ul>
                 </li>
                 <li>Export consulting: lists the RFQ requests
-                    <img src="../../img/fr/admin/export/export8.png" alt="img_tableau_bord">
+                    
                 </li>
+                <img src="../../img/fr/admin/export/export8.png" alt="img_tableau_bord">
                 <li>Export product: lists the products to export</li>
                     <img src="../../img/fr/admin/export/export7.png" alt="img_tableau_bord">
                 <li>Export supplier: list of exporters</li>

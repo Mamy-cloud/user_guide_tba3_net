@@ -11,9 +11,11 @@ creerCarte(
                     <ul>
                         <li>عرض الصفحة العامة: إعادة التوجيه إلى صفحة طلب عرض السعر</li>
                         <li>شريط البحث لخدمة التصدير</li>
-                        <img src="../../img/fr/admin/export/export11.png" alt="img_tableau_bord">
+                        
                     </ul>
                 </li>
+                <img src="../../img/fr/admin/export/export11.png" alt="img_tableau_bord">
+
                 <li>نظرة عامة
                     <ul>
                         <li>لوحة القيادة العامة لمركز التصدير واللوجستيات</li>
@@ -23,8 +25,9 @@ creerCarte(
                     </ul>
                 </li>
                 <li>استشارات التصدير: تسرد طلبات عروض الأسعار RFQ
-                    <img src="../../img/fr/admin/export/export8.png" alt="img_tableau_bord">
+                    
                 </li>
+                <img src="../../img/fr/admin/export/export8.png" alt="img_tableau_bord">
                 <li>منتج التصدير: يسرد المنتجات المراد تصديرها</li>
                     <img src="../../img/fr/admin/export/export7.png" alt="img_tableau_bord">
                 <li>مورد التصدير: قائمة المصدرين</li>
