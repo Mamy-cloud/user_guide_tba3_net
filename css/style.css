@@ -83,7 +83,7 @@ button a {
     border-radius: 8px;
     padding: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
+    margin-left: 20px;
     /* ICI : Le overflow initial demandé */
     overflow: hidden;
     
